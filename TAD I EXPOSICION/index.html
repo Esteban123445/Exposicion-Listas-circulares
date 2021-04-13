@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>ListasCirculares</title>
+</head>
+<body class="#f0f4c3 lime lighten-4">
+    <div class="container section">
+        <div class="center card-panel #81c784 green lighten-2">
+            <thead>
+                <h6>
+                    LISTAS CIRCULARES   
+                </h6>
+            </thead>
+        </div>
+        <div>
+            <center>
+                SALIDA:
+            </center>
+        </div>
+        <br>
+        <tbody>
+            <center>
+                <output id="listar">
+
+                </output>
+            </center>      
+        </tbody>
+        <br> <br>
+        <tbody>
+            <div class="col s6 center">
+                <a class="waves-effect waves-light btn #81c784 green lighten-2" onclick="añadirAlInicio()"><i class="material-icons left">done_outline</i>Añadir al inicio</a>
+                <a class="waves-effect waves-light btn #81c784 green lighten-2" onclick="añadirAlFinal()"><i class="material-icons left">done_outline</i>Añadir al final</a>
+                <a class="waves-effect waves-light btn #81c784 green lighten-2" onclick="añadirEnPosicion()"><i class="material-icons left" >done_outline</i>Añadir en determinada posicion</a>
+            </div>
+        </tbody>
+        <br> <br>
+        <tbody>
+            <div class="row center">
+                <!-- Parametros métodos listas simples -->
+                <div class="col s6">
+                    <input type="text" name="valorN" id="valorN"> <label for="valorN" >Valor nodo</label>
+                </div>
+                <div class="col s6">
+                    <input type="number" name="posicionN" id="posicionN"> <label for="posicionN" >Posición nodo</label>
+                </div>
+            </div>
+        </tbody>
+
+
+    </div>
+
+    
+
+</body>
+
+<script src="js/javascript.js"></script>
+
+</html>
